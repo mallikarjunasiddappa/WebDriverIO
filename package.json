@@ -1,0 +1,19 @@
+{
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js",
+        "GenerateReport": " allure generate allure-results --clean && allure open"
+    },
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.20.0",
+        "@wdio/cli": "^7.20.1",
+        "@wdio/local-runner": "^7.20.1",
+        "@wdio/mocha-framework": "^7.20.0",
+        "@wdio/spec-reporter": "^7.20.0",
+        "chromedriver": "^102.0.0",
+        "rimraf": "^3.0.2",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
+}

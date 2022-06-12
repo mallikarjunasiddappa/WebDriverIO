@@ -1,0 +1,50 @@
+{
+  "uid" : "380fb078fcd26a3b",
+  "name" : "Login fail page test 2",
+  "fullName" : "Enterprice application.Login fail page test 2",
+  "historyId" : "abc65a1f5b161747bfaea7397130ae22",
+  "time" : {
+    "start" : 1654859902579,
+    "stop" : 1654859902579,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Enterprice application"
+  }, {
+    "name" : "testClass",
+    "value" : "Enterprice application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login fail page test 2"
+  }, {
+    "name" : "package",
+    "value" : "Enterprice application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "380fb078fcd26a3b.json",
+  "parameterValues" : [ ]
+}

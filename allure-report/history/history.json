@@ -1,0 +1,42 @@
+{
+  "967b52d67487741f3a8207da1fac003" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31909765510cf254",
+      "status" : "failed",
+      "statusDetails" : "Menu button not displayed      \n                      actual expected\n                      \n                      truefalse\n                      ",
+      "time" : {
+        "start" : 1654860864504,
+        "stop" : 1654860866260,
+        "duration" : 1756
+      }
+    } ]
+  },
+  "abc65a1f5b161747bfaea7397130ae22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "407b7fed7a501bc4",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654860866260,
+        "stop" : 1654860866260,
+        "duration" : 0
+      }
+    } ]
+  }
+}

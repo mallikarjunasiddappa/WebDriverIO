@@ -1,0 +1,97 @@
+{
+  "uid" : "407b7fed7a501bc4",
+  "name" : "Login fail page test 2",
+  "fullName" : "Enterprice application.Login fail page test 2",
+  "historyId" : "abc65a1f5b161747bfaea7397130ae22",
+  "time" : {
+    "start" : 1654860866260,
+    "stop" : 1654860866260,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Enterprice application"
+  }, {
+    "name" : "testClass",
+    "value" : "Enterprice application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login fail page test 2"
+  }, {
+    "name" : "package",
+    "value" : "Enterprice application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "40185101a1ec3257",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654860718892,
+        "stop" : 1654860718892,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cfbe64b2c1056d26",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654860503970,
+        "stop" : 1654860503970,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "380fb078fcd26a3b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654859902579,
+        "stop" : 1654859902579,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff904a56c69c4792",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654859341785,
+        "stop" : 1654859341785,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b3493f8287b44577",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1654859341707,
+        "stop" : 1654859341707,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "407b7fed7a501bc4.json",
+  "parameterValues" : [ ]
+}

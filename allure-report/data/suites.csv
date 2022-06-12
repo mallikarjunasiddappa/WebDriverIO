@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Jun 10 13:34:24 CEST 2022","Fri Jun 10 13:34:26 CEST 2022","1756","","Enterprice application","","Enterprice application","Login fail page","Login fail page",""
+"skipped","Fri Jun 10 13:34:26 CEST 2022","Fri Jun 10 13:34:26 CEST 2022","0","","Enterprice application","","Enterprice application","Login fail page test 2","Login fail page test 2",""

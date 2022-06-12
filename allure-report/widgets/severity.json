@@ -1,0 +1,21 @@
+[ {
+  "uid" : "31909765510cf254",
+  "name" : "Login fail page",
+  "time" : {
+    "start" : 1654860864504,
+    "stop" : 1654860866260,
+    "duration" : 1756
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "407b7fed7a501bc4",
+  "name" : "Login fail page test 2",
+  "time" : {
+    "start" : 1654860866260,
+    "stop" : 1654860866260,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
