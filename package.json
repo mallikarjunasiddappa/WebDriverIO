@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "wdio": "wdio run wdio.conf.js",
+        "wdio": "N",
         "GenerateReport": " allure generate allure-results --clean && allure open"
     },
     "name": "webdriverio-tests",

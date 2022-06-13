@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655110217975' stop='1655110221513'>
+    <name>Enterprice application</name>
+    <title>Enterprice application</title>
+    <test-cases>
+        <test-case start='1655110217976' status='passed' stop='1655110220620'>
+            <name>Menu page list items</name>
+            <title>Menu page list items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1655110220620' status='broken' stop='1655110221512'>
+            <name>Buy page list items</name>
+            <title>Buy page list items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2e1f4f52-0f60-44a8-a963-a6e079c52563-attachment.png' type='image/png' size='178200'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at BuyPage.clickOnBuy (D:\WebDriverIO\volvo_webdriverio\test\pageobjects\buyPage.js:11:30)
+                    at Context.&lt;anonymous> (D:\WebDriverIO\volvo_webdriverio\test\specs\menuPageTest.js:40:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
