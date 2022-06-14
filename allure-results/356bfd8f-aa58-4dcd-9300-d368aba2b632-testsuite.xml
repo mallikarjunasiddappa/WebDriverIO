@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655111745148' stop='1655111747080'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655223275633' stop='1655223278060'>
     <name>Enterprice application</name>
     <title>Enterprice application</title>
     <test-cases>
-        <test-case start='1655111745149' status='passed' stop='1655111747079'>
+        <test-case start='1655223275633' status='passed' stop='1655223278058'>
             <name>Login fail page</name>
             <title>Login fail page</title>
             <labels>
@@ -15,8 +15,8 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
-                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='Chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='Chrome-102.0.5005.115'/>
             </parameters>
             <steps/>
             <attachments/>

@@ -1,18 +1,18 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655106425177' stop='1655106428095'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655218931411' stop='1655218936194'>
     <name>Enterprice application</name>
     <title>Enterprice application</title>
     <test-cases>
-        <test-case start='1655106425178' status='passed' stop='1655106427120'>
-            <name>Login fail page</name>
-            <title>Login fail page</title>
+        <test-case start='1655218931411' status='passed' stop='1655218934443'>
+            <name>Menu page list items</name>
+            <title>Menu page list items</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
@@ -21,16 +21,16 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1655106427121' status='passed' stop='1655106428094'>
-            <name>Login fail page test 2</name>
-            <title>Login fail page test 2</title>
+        <test-case start='1655218934444' status='passed' stop='1655218936193'>
+            <name>Buy page list items</name>
+            <title>Buy page list items</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-1'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>

@@ -4,7 +4,24 @@ exports.config = {
     // Runner Configuration
     // ====================
     //
+     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
+    // on a remote machine).
+    runner: 'local',
     //
+     // =====================
+    // Server Configurations
+    // =====================
+    // Host address of the running Selenium server. This information is usually obsolete as
+    // WebdriverIO automatically connects to localhost. Also, if you are using one of the
+    // supported cloud services like Sauce Labs, Browserstack, Testing Bot or LambdaTest you don't
+    // need to define host and port information because WebdriverIO can figure that out
+    // according to your user and key information. However, if you are using a private Selenium
+    // backend you should define the host address, port, and path here.
+    //
+   /* hostname: 'localhost',
+    port: 4444,
+    path: '/',
+    // */
     // ==================
     // Specify Test Files
     // ==================
@@ -58,7 +75,10 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true
+        acceptInsecureCerts: true,
+        'goog:chromeOptions': {
+            args: ['--no-sandbox', '--disable-dev-shm-usage', '--headless']
+        }        
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -111,7 +131,8 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    //services: ['chromedriver'],
+    services: ['chromedriver','docker'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -139,8 +160,6 @@ exports.config = {
         disableWebdriverScreenshotsReporting: false,
     }]],
 
-
-    
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/

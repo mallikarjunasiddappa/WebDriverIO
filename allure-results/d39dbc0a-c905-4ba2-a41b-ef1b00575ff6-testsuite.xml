@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655110863542' stop='1655110867229'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655218863353' stop='1655218868195'>
     <name>Enterprice application</name>
     <title>Enterprice application</title>
     <test-cases>
-        <test-case start='1655110863543' status='passed' stop='1655110866191'>
+        <test-case start='1655218863354' status='passed' stop='1655218866404'>
             <name>Menu page list items</name>
             <title>Menu page list items</title>
             <labels>
@@ -21,7 +21,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1655110866191' status='broken' stop='1655110867228'>
+        <test-case start='1655218866404' status='passed' stop='1655218868193'>
             <name>Buy page list items</name>
             <title>Buy page list items</title>
             <labels>
@@ -37,16 +37,7 @@
                 <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
             </parameters>
             <steps/>
-            <attachments>
-                <attachment title='Screenshot' source='05967d3f-f93c-420a-8e00-840860c4acd9-attachment.png' type='image/png' size='178433'/>
-            </attachments>
-            <failure>
-                <message>Cannot read properties of undefined (reading 'waitForDisplayed')</message>
-                <stack-trace>TypeError: Cannot read properties of undefined (reading 'waitForDisplayed')
-                    at Context.&lt;anonymous> (D:\WebDriverIO\volvo_webdriverio\test\specs\menuPageTest.js:38:34)
-                    at Context.executeAsync (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:333:27)
-                    at Context.testFrameworkFnWrapper (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
-            </failure>
+            <attachments/>
         </test-case>
     </test-cases>
 </ns2:test-suite>

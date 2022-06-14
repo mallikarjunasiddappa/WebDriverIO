@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655222289705' stop='1655222299155'>
+    <name>Enterprice application</name>
+    <title>Enterprice application</title>
+    <test-cases>
+        <test-case start='1655222289707' status='broken' stop='1655222294064'>
+            <name>Menu page list items</name>
+            <title>Menu page list items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-101.0'/>
+                <parameter kind='argument' name='browser' value='firefox-101.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='434272fc-4350-48bc-b009-e8a6251cda79-attachment.png' type='image/png' size='256636'/>
+            </attachments>
+            <failure>
+                <message>element ("//*[contains(text(), "Accept")]") still not displayed after 3000ms</message>
+                <stack-trace>Error: element ("//*[contains(text(), "Accept")]") still not displayed after 3000ms
+                    at D:\WebDriverIO\volvo_webdriverio\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\WebDriverIO\volvo_webdriverio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\WebDriverIO\volvo_webdriverio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (D:\WebDriverIO\volvo_webdriverio\test\specs\menuPageTest.js:18:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1655222294065' status='broken' stop='1655222299153'>
+            <name>Buy page list items</name>
+            <title>Buy page list items</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-101.0'/>
+                <parameter kind='argument' name='browser' value='firefox-101.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3e0ff7eb-1685-4c98-abdd-41300cb06ab2-attachment.png' type='image/png' size='112158'/>
+            </attachments>
+            <failure>
+                <message>Element &lt;em class="_SN-aw _SN-cf _SN-dp _SN-dq _SN-ds _SN-du _SN-dv _SN-dx _SN-dz _SN-ea _SN-ec _SN-ee _SN-ef _SN-eh _SN-ej _SN-fr _SN-fs _SN-ft _SN-fu _SN-fv _SN-fw _SN-fx _SN-fy _SN-i"> is not clickable at point (1148,90) because another element &lt;div class="onetrust-pc-dark-filter ot-fade-in"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;em class="_SN-aw _SN-cf _SN-dp _SN-dq _SN-ds _SN-du _SN-dv _SN-dx _SN-dz _SN-ea _SN-ec _SN-ee _SN-ef _SN-eh _SN-ej _SN-fr _SN-fs _SN-ft _SN-fu _SN-fv _SN-fw _SN-fx _SN-fy _SN-i"> is not clickable at point (1148,90) because another element &lt;div class="onetrust-pc-dark-filter ot-fade-in"> obscures it
+                    at getErrorFromResponseBody (D:\WebDriverIO\volvo_webdriverio\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (D:\WebDriverIO\volvo_webdriverio\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\WebDriverIO\volvo_webdriverio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (D:\WebDriverIO\volvo_webdriverio\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (D:\WebDriverIO\volvo_webdriverio\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

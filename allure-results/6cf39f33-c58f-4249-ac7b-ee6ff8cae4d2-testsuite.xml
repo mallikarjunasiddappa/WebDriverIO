@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655110957712' stop='1655110961732'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655222283426' stop='1655222300353'>
     <name>Enterprice application</name>
     <title>Enterprice application</title>
     <test-cases>
-        <test-case start='1655110957713' status='passed' stop='1655110960342'>
+        <test-case start='1655222283426' status='passed' stop='1655222292492'>
             <name>Menu page list items</name>
             <title>Menu page list items</title>
             <labels>
@@ -15,13 +15,13 @@
                 <label name='thread' value='0-1'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
-                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1655110960342' status='passed' stop='1655110961730'>
+        <test-case start='1655222292493' status='passed' stop='1655222300352'>
             <name>Buy page list items</name>
             <title>Buy page list items</title>
             <labels>
@@ -33,8 +33,8 @@
                 <label name='thread' value='0-1'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
-                <parameter kind='argument' name='browser' value='chrome-102.0.5005.115'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.61'/>
             </parameters>
             <steps/>
             <attachments/>
