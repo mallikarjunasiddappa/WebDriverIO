@@ -1,12 +1,12 @@
 {
-  "uid" : "ecd8d51972cca994",
-  "name" : "Login fail page",
-  "fullName" : "Enterprice application.Login fail page",
-  "historyId" : "967b52d67487741f3a8207da1fac003",
+  "uid" : "7a3ee22726f99556",
+  "name" : "Menu page list items",
+  "fullName" : "Enterprice application.Menu page list items",
+  "historyId" : "fceb8f4233160ab481f8ba825448a166",
   "time" : {
-    "start" : 1654859339537,
-    "stop" : 1654859341707,
-    "duration" : 2170
+    "start" : 1655370910002,
+    "stop" : 1655370912474,
+    "duration" : 2472
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-2"
   }, {
     "name" : "suite",
     "value" : "Enterprice application"
@@ -36,7 +36,7 @@
     "value" : "Enterprice application"
   }, {
     "name" : "testMethod",
-    "value" : "Login fail page"
+    "value" : "Menu page list items"
   }, {
     "name" : "package",
     "value" : "Enterprice application"
@@ -46,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.115"
+    "value" : "Chrome-102.0.5005.115"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ecd8d51972cca994.json",
-  "parameterValues" : [ "chrome-102.0.5005.115" ]
+  "source" : "7a3ee22726f99556.json",
+  "parameterValues" : [ "Chrome-102.0.5005.115" ]
 }

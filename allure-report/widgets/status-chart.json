@@ -1,21 +1,31 @@
 [ {
-  "uid" : "31909765510cf254",
-  "name" : "Login fail page",
+  "uid" : "7a3ee22726f99556",
+  "name" : "Menu page list items",
   "time" : {
-    "start" : 1654860864504,
-    "stop" : 1654860866260,
-    "duration" : 1756
+    "start" : 1655370910002,
+    "stop" : 1655370912474,
+    "duration" : 2472
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "407b7fed7a501bc4",
-  "name" : "Login fail page test 2",
+  "uid" : "7ab83bc05f702ba5",
+  "name" : "Login fail page",
   "time" : {
-    "start" : 1654860866260,
-    "stop" : 1654860866260,
-    "duration" : 0
+    "start" : 1655370905785,
+    "stop" : 1655370907583,
+    "duration" : 1798
   },
-  "status" : "skipped",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "992a57cea1580f1a",
+  "name" : "Buy page list items",
+  "time" : {
+    "start" : 1655370900564,
+    "stop" : 1655370903444,
+    "duration" : 2880
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

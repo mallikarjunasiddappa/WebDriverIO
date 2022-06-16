@@ -1,12 +1,12 @@
 {
-  "uid" : "db64391d1e14f0bc",
-  "name" : "Login fail page",
-  "fullName" : "Enterprice application.Login fail page",
-  "historyId" : "967b52d67487741f3a8207da1fac003",
+  "uid" : "992a57cea1580f1a",
+  "name" : "Buy page list items",
+  "fullName" : "Enterprice application.Buy page list items",
+  "historyId" : "2eb3f524db437f252c7ed0b110760206",
   "time" : {
-    "start" : 1654859339648,
-    "stop" : 1654859341783,
-    "duration" : 2135
+    "start" : 1655370900564,
+    "stop" : 1655370903444,
+    "duration" : 2880
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "Enterprice application"
@@ -36,7 +36,7 @@
     "value" : "Enterprice application"
   }, {
     "name" : "testMethod",
-    "value" : "Login fail page"
+    "value" : "Buy page list items"
   }, {
     "name" : "package",
     "value" : "Enterprice application"
@@ -46,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.115"
+    "value" : "Chrome-102.0.5005.115"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "db64391d1e14f0bc.json",
-  "parameterValues" : [ "chrome-102.0.5005.115" ]
+  "source" : "992a57cea1580f1a.json",
+  "parameterValues" : [ "Chrome-102.0.5005.115" ]
 }

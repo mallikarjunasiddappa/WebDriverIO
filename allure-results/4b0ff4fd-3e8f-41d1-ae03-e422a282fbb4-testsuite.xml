@@ -1,18 +1,18 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655223357187' stop='1655223359997'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655370910002' stop='1655370912475'>
     <name>Enterprice application</name>
     <title>Enterprice application</title>
     <test-cases>
-        <test-case start='1655223357188' status='passed' stop='1655223359996'>
-            <name>Login fail page</name>
-            <title>Login fail page</title>
+        <test-case start='1655370910002' status='passed' stop='1655370912474'>
+            <name>Menu page list items</name>
+            <title>Menu page list items</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
-                <label name='thread' value='0-0'/>
+                <label name='thread' value='0-2'/>
             </labels>
             <parameters>
                 <parameter kind='argument' name='browser' value='Chrome-102.0.5005.115'/>

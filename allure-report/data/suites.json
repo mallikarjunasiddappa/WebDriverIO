@@ -4,39 +4,56 @@
   "children" : [ {
     "name" : "Enterprice application",
     "children" : [ {
-      "name" : "Login fail page",
-      "uid" : "31909765510cf254",
+      "name" : "Buy page list items",
+      "uid" : "992a57cea1580f1a",
       "parentUid" : "bd2002cc421617b342d9ad1246fd8e3b",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1654860864504,
-        "stop" : 1654860866260,
-        "duration" : 1756
+        "start" : 1655370900564,
+        "stop" : 1655370903444,
+        "duration" : 2880
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 5,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-102.0.5005.115" ]
-    }, {
-      "name" : "Login fail page test 2",
-      "uid" : "407b7fed7a501bc4",
-      "parentUid" : "bd2002cc421617b342d9ad1246fd8e3b",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1654860866260,
-        "stop" : 1654860866260,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 5,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "parameters" : [ "Chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Login fail page",
+      "uid" : "7ab83bc05f702ba5",
+      "parentUid" : "bd2002cc421617b342d9ad1246fd8e3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655370905785,
+        "stop" : 1655370907583,
+        "duration" : 1798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-102.0.5005.115" ]
+    }, {
+      "name" : "Menu page list items",
+      "uid" : "7a3ee22726f99556",
+      "parentUid" : "bd2002cc421617b342d9ad1246fd8e3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655370910002,
+        "stop" : 1655370912474,
+        "duration" : 2472
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "Chrome-102.0.5005.115" ]
     } ],
     "uid" : "bd2002cc421617b342d9ad1246fd8e3b"
   } ]

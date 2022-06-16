@@ -4,12 +4,12 @@
     "uid" : "bd2002cc421617b342d9ad1246fd8e3b",
     "name" : "Enterprice application",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   } ]
 }

@@ -1,41 +1,58 @@
 {
-  "967b52d67487741f3a8207da1fac003" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "31909765510cf254",
-      "status" : "failed",
-      "statusDetails" : "Menu button not displayed      \n                      actual expected\n                      \n                      truefalse\n                      ",
-      "time" : {
-        "start" : 1654860864504,
-        "stop" : 1654860866260,
-        "duration" : 1756
-      }
-    } ]
-  },
-  "abc65a1f5b161747bfaea7397130ae22" : {
+  "fceb8f4233160ab481f8ba825448a166" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "407b7fed7a501bc4",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
+      "uid" : "7a3ee22726f99556",
+      "status" : "passed",
       "time" : {
-        "start" : 1654860866260,
-        "stop" : 1654860866260,
-        "duration" : 0
+        "start" : 1655370910002,
+        "stop" : 1655370912474,
+        "duration" : 2472
+      }
+    } ]
+  },
+  "6e6068f03b28f8490239d12fd67be1c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ab83bc05f702ba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655370905785,
+        "stop" : 1655370907583,
+        "duration" : 1798
+      }
+    } ]
+  },
+  "2eb3f524db437f252c7ed0b110760206" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "992a57cea1580f1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655370900564,
+        "stop" : 1655370903444,
+        "duration" : 2880
       }
     } ]
   }

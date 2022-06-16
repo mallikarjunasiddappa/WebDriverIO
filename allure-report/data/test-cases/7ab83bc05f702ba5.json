@@ -1,18 +1,16 @@
 {
-  "uid" : "7b727496a26ab5f2",
+  "uid" : "7ab83bc05f702ba5",
   "name" : "Login fail page",
   "fullName" : "Enterprice application.Login fail page",
-  "historyId" : "967b52d67487741f3a8207da1fac003",
+  "historyId" : "6e6068f03b28f8490239d12fd67be1c7",
   "time" : {
-    "start" : 1654860717661,
-    "stop" : 1654860718892,
-    "duration" : 1231
+    "start" : 1655370905785,
+    "stop" : 1655370907583,
+    "duration" : 1798
   },
   "description" : "",
   "descriptionHtml" : "",
-  "status" : "failed",
-  "statusMessage" : "Menu button not displayed      \n                      actual expected\n                      \n                      truefalse\n                      ",
-  "statusTrace" : "AssertionError [ERR_ASSERTION]: Menu button not displayed\n                    at Context.<anonymous> (D:\\WebDriverIO\\volvo_webdriverio\\test\\specs\\firstTest.js:21:14)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -29,7 +27,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
     "value" : "Enterprice application"
@@ -48,15 +46,17 @@
   } ],
   "parameters" : [ {
     "name" : "browser",
-    "value" : "chrome-102.0.5005.115"
+    "value" : "Chrome-102.0.5005.115"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7b727496a26ab5f2.json",
-  "parameterValues" : [ "chrome-102.0.5005.115" ]
+  "source" : "7ab83bc05f702ba5.json",
+  "parameterValues" : [ "Chrome-102.0.5005.115" ]
 }

@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Jun 10 13:34:24 CEST 2022","Fri Jun 10 13:34:26 CEST 2022","1756","","Enterprice application","","Enterprice application","Login fail page","Login fail page",""
-"skipped","Fri Jun 10 13:34:26 CEST 2022","Fri Jun 10 13:34:26 CEST 2022","0","","Enterprice application","","Enterprice application","Login fail page test 2","Login fail page test 2",""
+"passed","Thu Jun 16 11:15:10 CEST 2022","Thu Jun 16 11:15:12 CEST 2022","2472","","Enterprice application","","Enterprice application","Menu page list items","Menu page list items",""
+"passed","Thu Jun 16 11:15:05 CEST 2022","Thu Jun 16 11:15:07 CEST 2022","1798","","Enterprice application","","Enterprice application","Login fail page","Login fail page",""
+"passed","Thu Jun 16 11:15:00 CEST 2022","Thu Jun 16 11:15:03 CEST 2022","2880","","Enterprice application","","Enterprice application","Buy page list items","Buy page list items",""
